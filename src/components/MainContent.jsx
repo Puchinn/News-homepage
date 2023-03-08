@@ -12,7 +12,7 @@ function MainContent() {
 						platforms back into the hands of the people. But is it really fulfilling its
 						promise?
 					</p>
-					<button className='py-2 px-7 text-white bg-Soft_Red'>
+					<button className='py-2 px-7 text-white bg-Soft_Red hover:bg-Very_dark_blue'>
 						<span className='tracking-[0.2rem] font-semibold'>READ MORE</span>
 					</button>
 				</div>
