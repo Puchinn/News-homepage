@@ -4,14 +4,13 @@ function MainContent() {
 	return (
 		<section>
 			<img src={image} alt='web-3-image' />
-			<div className='flex'>
-				<h1 className='text-6xl font-bold'>The Bright Future of Web 3.0?</h1>
-				<div className='p-4 flex flex-col justify-between items-start'>
+			<div className='flex w-full'>
+				<h1 className='text-6xl font-bold flex-1'>The Bright Future of Web 3.0?</h1>
+				<div className='p-4 flex flex-col justify-between items-start flex-1'>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dignissimos
-						doloremque incidunt enim tempore eius iste aperiam voluptatum et dicta
-						laudantium perspiciatis doloribus, voluptas eligendi porro rem voluptate dolorem
-						nemo minus numquam ullam ipsum adipisci magnam fugiat. Non, pariatur delectus!
+						We dive into the next evolution of the web that claims to put the power of the
+						platforms back into the hands of the people. But is it really fulfilling its
+						promise?
 					</p>
 					<button className='py-2 px-7 text-white bg-Soft_Red'>
 						<span className='tracking-[0.2rem] font-semibold'>READ MORE</span>
