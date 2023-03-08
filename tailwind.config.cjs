@@ -11,6 +11,9 @@ module.exports = {
         Dark_grayish_blue: 'hsl(236, 13%, 42%)',
         Very_dark_blue: 'hsl(240, 100%, 5%)',
       },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif']
+      }
     },
   },
   plugins: [],
