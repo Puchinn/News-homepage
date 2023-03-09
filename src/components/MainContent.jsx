@@ -1,9 +1,11 @@
-import image from '../assets/images/image-web-3-desktop.jpg'
-
 function MainContent() {
 	return (
 		<section>
-			<img src={image} className='object-cover w-full' alt='web-3-image' />
+			<img
+				src='../../public/images/image-web-3-desktop.jpg'
+				className='object-cover w-full'
+				alt='web-3-image'
+			/>
 			<div className='md:flex pt-6'>
 				<h1 className='text-4xl md:text-6xl pb-3 font-bold flex-1 text-Very_dark_blue'>
 					The Bright Future of Web 3.0?
