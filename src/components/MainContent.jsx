@@ -2,7 +2,7 @@ function MainContent() {
 	return (
 		<section>
 			<img
-				src='../../public/images/image-web-3-desktop.jpg'
+				src='../images/image-web-3-desktop.jpg'
 				className='object-cover w-full'
 				alt='web-3-image'
 			/>
