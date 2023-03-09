@@ -2,6 +2,7 @@ import Nav from './components/Nav'
 import MainContent from './components/MainContent'
 import NewsContent from './components/NewsContent'
 import Interesting from './components/Interesting'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				</div>
 				<Interesting />
 			</div>
+			<Footer />
 		</div>
 	)
 }
