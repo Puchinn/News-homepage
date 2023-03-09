@@ -19,7 +19,7 @@ function Nav() {
 			{isActive && (
 				<div className='fixed left-0 w-screen md:hidden h-screen top-0 grid grid-cols-5 bg-Very_dark_blue bg-opacity-50'>
 					<div className='col-span-2'></div>
-					<div className='flex flex-col text-Very_dark_blue col-span-3 gap-y-3 pl-3 bg-Off_white py-32 [&_>a:hover]:text-Soft_Red'>
+					<div className='flex flex-col text-xl text-Very_dark_blue col-span-3 gap-y-3 pl-3 bg-Off_white py-32 [&_>a:hover]:text-Soft_Red'>
 						<a href='#'>Home</a>
 						<a href='#'>New</a>
 						<a href='#'>Popular</a>
