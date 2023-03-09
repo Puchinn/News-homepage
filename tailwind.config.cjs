@@ -12,7 +12,7 @@ module.exports = {
         Very_dark_blue: 'hsl(240, 100%, 5%)',
       },
       fontFamily: {
-        'inter': ['Inter', 'sans-serif']
+        'Inter': ['Inter', 'sans-serif'],
       }
     },
   },
