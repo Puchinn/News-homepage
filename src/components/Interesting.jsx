@@ -3,7 +3,7 @@ import Item from './Item'
 
 function Interesting() {
 	return (
-		<section className='col-span-12 gap-x-7 grid grid-cols-12'>
+		<section className='space-y-6 lg:space-y-0 xl:py-4 py-10 gap-3 xl:grid-cols-12 lg:grid grid-cols-8'>
 			{items.map(item => {
 				return (
 					<Item
@@ -18,5 +18,6 @@ function Interesting() {
 		</section>
 	)
 }
+// col-span-12 gap-x-7 grid grid-cols-12
 
 export default Interesting

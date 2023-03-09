@@ -1,7 +1,7 @@
 function ButtonMenu({ isActive, setIsActive }) {
 	return (
 		<button
-			className='z-10'
+			className='z-10 md:hidden'
 			onClick={() => {
 				setIsActive(!isActive)
 			}}>
