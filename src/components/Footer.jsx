@@ -1,6 +1,6 @@
 function Footer() {
 	return (
-		<div className='attribution text-center pt-2 xl:pt-6'>
+		<footer className='attribution text-center pt-2 xl:pt-6'>
 			Challenge by{' '}
 			<a
 				className='text-blue-600 underline'
@@ -18,7 +18,7 @@ function Footer() {
 				Esteban Sayago
 			</a>
 			.
-		</div>
+		</footer>
 	)
 }
 

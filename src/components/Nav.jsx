@@ -5,7 +5,7 @@ function Nav() {
 	const [isActive, setIsActive] = useState(false)
 
 	return (
-		<header className='flex flex-col md:flex-row justify-between max-w-7xl mx-auto md:items-end'>
+		<header className='flex flex-col md:flex-row justify-between mx-auto md:items-end'>
 			<div className='flex justify-between'>
 				<svg width='65' height='40' xmlns='http://www.w3.org/2000/svg'>
 					<path
@@ -17,7 +17,7 @@ function Nav() {
 			</div>
 
 			{isActive && (
-				<div className='fixed left-0 w-screen md:hidden h-screen top-0 grid grid-cols-5 bg-Very_dark_blue bg-opacity-50'>
+				<nav className='fixed left-0 w-screen md:hidden h-screen top-0 grid grid-cols-5 bg-Very_dark_blue bg-opacity-50'>
 					<div className='col-span-2'></div>
 					<div className='flex flex-col text-xl text-Very_dark_blue col-span-3 gap-y-3 pl-3 bg-Off_white py-32 [&_>a:hover]:text-Soft_Red'>
 						<a href='#'>Home</a>
@@ -26,7 +26,7 @@ function Nav() {
 						<a href='#'>Trending</a>
 						<a href='#'>Categories</a>
 					</div>
-				</div>
+				</nav>
 			)}
 			<nav className='space-x-6 hidden md:block text-Dark_grayish_blue [&_>a:hover]:text-Soft_Red'>
 				<a href='#'>Home</a>
