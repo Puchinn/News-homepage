@@ -7,9 +7,9 @@ import Footer from './components/Footer'
 function App() {
 	return (
 		<div className='App bg-Off_white p-5 lg:p-[5.1rem]'>
-			<div className='max-w-7xl lg:mx-auto xl:space-y-9 font-Inter'>
+			<div className='max-w-6xl lg:mx-auto xl:space-y-9 font-Inter'>
 				<Nav />
-				<main className='grid grid-cols-1 xl:grid-cols-12 xl:gap-x-14 py-4'>
+				<main className='grid grid-cols-1 xl:grid-cols-12 xl:gap-x-8 py-4'>
 					<div className='col-span-8'>
 						<MainContent />
 					</div>

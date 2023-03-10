@@ -28,7 +28,7 @@ function Nav() {
 					</div>
 				</nav>
 			)}
-			<nav className='space-x-6 hidden md:block text-Dark_grayish_blue [&_>a:hover]:text-Soft_Red'>
+			<nav className='space-x-9 hidden md:block text-Dark_grayish_blue [&_>a:hover]:text-Soft_Red'>
 				<a href='#'>Home</a>
 				<a href='#'>New</a>
 				<a href='#'>Popular</a>
